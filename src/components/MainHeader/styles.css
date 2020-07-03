@@ -1,0 +1,89 @@
+div.mainHeader {
+    display: flex;
+    flex-direction: column;
+    height: 187px;
+    width: 100%;
+    background: #fafbfc;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+div.mainHeader .headerContainer {
+    display: flex;
+    align-items: center;
+    margin-left:149.5px;
+    margin-right:149.5px;
+    padding-top: 16px;
+}
+
+div.mainHeader .headerContainer .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+div.mainHeader .headerContainer .info {
+    text-decoration-color:rgb(255, 255, 255);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    padding-left: 20px;
+}
+
+div.mainHeader .headerContainer .info h1{
+    font-size:20px;
+    font-weight:400;
+}
+
+div.mainHeader .headerContainer .info ul {
+    display: flex;
+    list-style: none;
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+div.mainHeader .headerContainer .info ul li:first-child {
+    margin: 0;
+}
+
+div.mainHeader .headerContainer .info ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+div.mainHeader .headerContainer .info ul li img {
+    margin-right: 5px;
+}
+
+div.mainHeader .navContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+}
+
+div.mainHeader .navContainer ul {
+    display: flex;
+    margin-left:149.5px;
+    margin-right:149.5px;
+    list-style: none;
+    font-size: 14px;
+}
+
+div.mainHeader .navContainer ul li img {
+    margin-right: 5px;
+}
+
+div.mainHeader .navContainer ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom:9px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:14px
+}
+
+div.mainHeader .navContainer ul li.selected {
+    font-weight: 600;
+    border-bottom: 2px solid #f9826c;
+}

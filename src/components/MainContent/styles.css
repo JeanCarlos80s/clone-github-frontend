@@ -1,0 +1,184 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left:149.5px;
+    margin-right:149.5px;
+}
+
+.mainContent .boxSignup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    height:172px;
+    padding-bottom:24px;
+    padding-left:24px;
+    padding-right:24px;
+    padding-top:24px;
+    text-align:center;
+    text-size-adjust:100%;
+    border: 1px solid #eeeeef;
+    border-radius: 5px;
+    background-image: url(https://github.githubassets.com/images/modules/site/site-signup-prompt.png);
+    background-size: 100%;
+    background-position-x:50%;
+    background-position-y:30%;
+}
+
+.mainContent .boxSignup h3 {
+    font-size:20px;
+    font-weight:600;
+    margin-top: 8px;
+}
+
+.mainContent .boxSignup p {
+    font-size:14px;
+    width:620px;
+    margin-top: 8px;
+    margin-left:155px;
+    margin-right:155px;
+}
+
+.mainContent .boxSignup a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #2ea44f;
+    width: 82px;
+    height: 32px;
+    font-size:14px;
+    font-weight:500;
+    cursor: pointer;
+    text-decoration-color:rgb(255, 255, 255);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    text-size-adjust:100%;
+    transition-delay:0s;
+    transition-duration:0.2s;
+    transition-property:background-color;
+    transition-timing-function:cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+.textTitle {
+    font-size:16px;
+    font-weight:400;
+    margin-top: 20px;
+}
+
+.boxRepos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boxRepos .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 1px solid #eeeeef;
+    width:315.984px;
+    height:151px;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+.boxRepos .boxes .content .boxTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxRepos .boxes .content .boxTitle img {
+    margin-right: 5px;
+}
+
+.boxRepos .boxes .content .boxTitle a {
+    text-align:left;
+    text-decoration-color:rgb(3, 102, 214);
+    text-decoration-line:none;
+    font-size:14px;
+    font-weight:600
+}
+
+.boxRepos .boxes .content a:hover {
+    text-decoration-line: underline;
+}
+
+.boxRepos .boxes .content p {
+    font-size:12px;
+    color: #586069!important;
+    text-align:left;
+    margin-top: 8px;
+    line-height:18px;
+}
+
+.boxRepos .boxes ul {
+    display: flex;
+    list-style: none;
+    font-size:12px;
+}
+
+.boxRepos .boxes ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.boxRepos .boxes div.repo-language-color-java {
+    width: 12px;
+    height: 12px;
+    background-color: #b07219;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.boxRepos .boxes div.repo-language-color-javascript {
+    width: 12px;
+    height: 12px;
+    background-color: #f1e05a;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.boxRepos .boxes div.repo-language-color-css {
+    width: 12px;
+    height: 12px;
+    background-color: #563d7c;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.boxRepos .boxes div.repo-language-color-html {
+    width: 12px;
+    height: 12px;
+    background-color: #e34c26;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.boxRepos .boxes div.repo-language-color-php {
+    width: 12px;
+    height: 12px;
+    background-color: #4F5D95;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.boxRepos .boxes ul li img {
+    margin-right: 2px;
+}
+
+.separator {
+    border-bottom: 1px solid #eaecef;
+    margin: 20px 0;
+}
